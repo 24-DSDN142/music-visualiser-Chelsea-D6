@@ -12,7 +12,7 @@ var fallstart2 = 2737
 var fallend2 = 5310
 var x = -630
 var fallstart3 = 5312
-var fallend3 = 7000
+var fallend3 = 8214
 // nice
 
 // vocal, drum, bass, and other are volumes ranging from 0 to 100
@@ -39,7 +39,7 @@ if(counter > fallstart1 && counter < fallend1)
     stroke(126, 223, 236)
     strokeWeight(3)
   }else{
-    stroke(0)
+    noStroke(0)
   }
 
 // translate to the center 
@@ -62,7 +62,7 @@ if(counter > fallstart1 && counter < fallend1)
     stroke(251, 154, 175)
     strokeWeight(3)
   }else{
-    stroke(0)
+    noStroke(0)
   }
 
 // translate to the center 
@@ -84,7 +84,7 @@ if(counter > fallstart1 && counter < fallend1)
     stroke(240, 243, 179)
     strokeWeight(3)
   }else{
-    stroke(0)
+    noStroke(0)
   }
 
 // translate to the center 
@@ -107,7 +107,7 @@ if(counter > fallstart2 && counter < fallend2)
     stroke(126, 223, 236)
     strokeWeight(3)
   }else{
-    stroke(0)
+    noStroke(0)
   }
 
 // translate to the center 
@@ -129,7 +129,7 @@ if(counter > fallstart2 && counter < fallend2)
     stroke(240, 243, 179)
     strokeWeight(3)
   }else{
-    stroke(0)
+    noStroke(0)
   }
 
 // translate to the center 
@@ -152,7 +152,7 @@ if(counter > fallstart3 && counter < fallend3)
     stroke(126, 223, 236)
     strokeWeight(3)
   }else{
-    stroke(0)
+    noStroke(0)
   }
 
 // translate to the center 
@@ -175,7 +175,7 @@ if(counter > fallstart3 && counter < fallend3)
     stroke(206, 185, 240)
     strokeWeight(3)
   }else{
-    stroke(0)
+    noStroke(0)
   }
 
 // translate to the center 
@@ -198,7 +198,7 @@ if(counter > fallstart3 && counter < fallend3)
     stroke(240, 243, 179)
     strokeWeight(3)
   }else{
-    stroke(0)
+    noStroke(0)
   }
 
 // translate to the center 
@@ -558,6 +558,87 @@ textSize(50)
 textFont('Catalish Huntera');
 text('OH YEAH', 150, 532);
 pop()
+
+push()
+console.log(counter);
+if(counter > 6475 && counter < 6571){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textFont('Catalish Huntera');
+text('You can DANCE', 400, 100 );
+pop()
+
+push()
+console.log(counter);
+if(counter > 6614 && counter < 6722){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textFont('Catalish Huntera');
+text('You can JIVE', 400, 125);
+pop()
+
+push()
+console.log(counter);
+if(counter > 6759 && counter < 6938){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textFont('Catalish Huntera');
+text('Having the time of your life', 350, 175);
+pop()
+
+push()
+console.log(counter);
+if(counter > 6975 && counter < 7028){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textSize(30)
+textFont('Catalish Huntera');
+text('OOOOOOOH', 375, 250);
+pop()
+
+push()
+console.log(counter);
+if(counter > 7062 && counter < 7146){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textFont('Catalish Huntera');
+text('See that girl', 355, 325);
+pop()
+
+push()
+console.log(counter);
+if(counter > 7187 && counter < 7280){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textFont('Catalish Huntera');
+text('watch that scene', 355, 375);
+pop()
+
+push()
+console.log(counter);
+if(counter > 7302 && counter < 7760){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textFont('Catalish Huntera');
+text('digging the DANCING QUEEN', 200, 425);
+pop()
+
+
+
 
 
 
