@@ -1,0 +1,4 @@
+textSize
+textSize
+straight
+gas

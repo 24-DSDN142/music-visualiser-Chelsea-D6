@@ -1,33 +1,656 @@
 
+let img
+let firstRun = true 
+var lineCount =16
+var fallstart1 = 0
+var fallend1 = 2735
+var lineCountb = 14
+var lineCountc = 20
+var y = 365
+var textSize = 100
+var fallstart2 = 2737
+var fallend2 = 5310
+var x = -630
+var fallstart3 = 5312
+var fallend3 = 7000
+
+
 // vocal, drum, bass, and other are volumes ranging from 0 to 100
 function draw_one_frame(words, vocal, drum, bass, other, counter) {
-  background(20)
+
+  // print(counter)
+  createCanvas(800, 800);
+  background(0, 0, 0)
   textFont('Verdana'); // please use CSS safe fonts
   rectMode(CENTER)
   textSize(24);
-  
-   let bar_spacing = height / 10;
-   let bar_height = width / 12;
-   let bar_pos_x = width / 2;
- 
- 
-let circlecolour = map(vocal, 0, 100, 0, 255)  
-fill(140, vocal, 190)   
-let circle = map(vocal, 0, 100, 150, 200)
-ellipse(250, 400, 200, circle)
-
-let rectanglecolour = map(other, 0, 100, 0, 255)
-fill(140, rectanglecolour, 190)
-let rectangele = map(drum, 0, 100, 125)
-rect(250, 200, drum, 150)
-rect(250, 600, drum, 150)
-rect(450, 400, 150, drum)
-rect(50, 400, 150, drum)
-
+  angleMode(degrees)
 
   
+
+// first firework
+let linelength = map(drum, 0, 100, 100, 250)
+
+push(); 
+console.log(counter);
+if(counter > fallstart1 && counter < fallend1)
+
+  if(counter > 125){
+    stroke(126, 223, 236)
+    strokeWeight(3)
+  }else{
+    stroke(0)
+  }
+
+// translate to the center 
+translate(200, 350);
+let lineCountA = 16;
+for (let i=0; i<lineCount; i++) {
+  line(0, -40, 40, linelength)
+  rotate(360 / lineCount)
 }
- // vocal bar is red
+pop();
+
+
+// second firework
+let linelength2 = map(bass, 0, 100, 100, 250)
+push();
+console.log(counter);
+if(counter > fallstart1 && counter < fallend1)
+
+  if(counter > 125){
+    stroke(251, 154, 175)
+    strokeWeight(3)
+  }else{
+    stroke(0)
+  }
+
+// translate to the center 
+translate(450, 575);
+let lineCountb = 14;
+for (let i=0; i<lineCountb; i++) {
+  line(0, -40, 40, linelength2)
+  rotate(360 / lineCountb)
+}
+pop();
+
+// third firework
+let linelength3 = map(other, 0, 100, 150, 300)
+push();
+console.log(counter);
+if(counter > fallstart1 && counter < fallend1)
+
+  if(counter > 125){
+    stroke(240, 243, 179)
+    strokeWeight(3)
+  }else{
+    stroke(0)
+  }
+
+// translate to the center 
+translate(550, 175);
+let lineCountc = 20;
+for (let i=0; i<lineCountc; i++) {
+  line(0, -40, 40, linelength3)
+  rotate(360 / lineCountc)
+}
+pop();
+
+// fourth firework
+let linelength4 = map(drum, 0, 100, 100, 250)
+
+push(); 
+console.log(counter);
+if(counter > fallstart2 && counter < fallend2)
+
+  if(counter > 125){
+    stroke(126, 223, 236)
+    strokeWeight(3)
+  }else{
+    stroke(0)
+  }
+
+// translate to the center 
+translate(100, 100);
+let lineCountD = 16;
+for (let i=0; i<lineCount; i++) {
+  line(0, -40, 40, linelength)
+  rotate(360 / lineCount)
+}
+pop()
+
+// fifth firework
+let linelength5 = map(bass, 0, 100, 100, 250)
+push(); 
+console.log(counter);
+if(counter > fallstart2 && counter < fallend2)
+
+  if(counter > 125){
+    stroke(240, 243, 179)
+    strokeWeight(3)
+  }else{
+    stroke(0)
+  }
+
+// translate to the center 
+translate(700, 700);
+let lineCountE = 16;
+for (let i=0; i<lineCount; i++) {
+  line(0, -40, 40, linelength)
+  rotate(360 / lineCount)
+}
+pop()
+
+// sixth firework
+let linelength6 = map(drum, 0, 100, 100, 250)
+
+push(); 
+console.log(counter);
+if(counter > fallstart3 && counter < fallend3)
+
+  if(counter > 125){
+    stroke(126, 223, 236)
+    strokeWeight(3)
+  }else{
+    stroke(0)
+  }
+
+// translate to the center 
+translate(700, 350);
+let lineCountF = 16;
+for (let i=0; i<lineCount; i++) {
+  line(0, -40, 40, linelength)
+  rotate(360 / lineCount)
+}
+pop();
+
+// seventh firework
+let linelength7 = map(drum, 0, 100, 100, 250)
+
+push(); 
+console.log(counter);
+if(counter > fallstart3 && counter < fallend3)
+
+  if(counter > 125){
+    stroke(206, 185, 240)
+    strokeWeight(3)
+  }else{
+    stroke(0)
+  }
+
+// translate to the center 
+translate(150, 700);
+let lineCountG = 16;
+for (let i=0; i<lineCount; i++) {
+  line(0, -40, 40, linelength)
+  rotate(360 / lineCount)
+}
+pop();
+
+// eighth firework
+let linelength8 = map(drum, 0, 100, 100, 250)
+
+push(); 
+console.log(counter);
+if(counter > fallstart3 && counter < fallend3)
+
+  if(counter > 125){
+    stroke(240, 243, 179)
+    strokeWeight(3)
+  }else{
+    stroke(0)
+  }
+
+// translate to the center 
+translate(100, 150);
+let lineCountI = 16;
+for (let i=0; i<lineCount; i++) {
+  line(0, -40, 40, linelength)
+  rotate(360 / lineCount)
+}
+pop();
+
+push();
+console.log(counter);
+if(counter > 1125 && counter < 1255){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textFont('Catalish Huntera');
+text('OOOOOOOH', 35, 50);
+pop()
+
+push()
+console.log(counter);
+if(counter > 1305 && counter < 1405){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textFont('Catalish Huntera');
+text('You can DANCE', 35, 100 );
+pop()
+
+push()
+console.log(counter);
+if(counter > 1448 && counter < 1594){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textFont('Catalish Huntera');
+text('You can JIVE', 100, 125);
+pop()
+
+push()
+console.log(counter);
+if(counter > 1600 && counter < 1735){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textFont('Catalish Huntera');
+text('Having the time of your life', 150, 175);
+pop()
+
+push()
+console.log(counter);
+if(counter > 1816 && counter < 1886){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textFont('Catalish Huntera');
+text('OOOOOOOH', 50, 575);
+pop()
+
+push()
+console.log(counter);
+if(counter > 1917 && counter < 2015){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textFont('Catalish Huntera');
+text('See that girl', 75, 600);
+pop()
+
+push()
+console.log(counter);
+if(counter > 2020 && counter < 2085){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textFont('Catalish Huntera');
+text('watch that scene', 75, 630);
+pop()
+
+push()
+console.log(counter);
+if(counter > 2100 && counter < 2441){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textFont('Catalish Huntera');
+text('digging the DANCING QUEEN', 50, 675);
+pop()
+
+
+push()
+console.log(counter);
+if(counter > 2737 && counter < 2872){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textFont('Catalish Huntera');
+text('Friday night', 250, 234);
+pop()
+
+push()
+console.log(counter);
+if(counter > 2737 && counter < 2872){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textFont('Catalish Huntera');
+text('and the lights are', 250, 300);
+pop()
+
+push()
+console.log(counter);
+if(counter > 2737 && counter < 2872){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+if(counter > 2795){
+  y+= 7.5
+}else{
+  y = 366
+}
+textSize(50)
+textFont('Catalish Huntera');
+text('low', 295, y);
+pop()
+
+push()
+console.log(counter);
+if(counter > 2970 && counter < 3245){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textSize(24)
+textFont('Catalish Huntera');
+text('Looking out for', 250, 234);
+pop()
+
+push()
+console.log(counter);
+if(counter > 2970 && counter < 3245){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textSize(24)
+textFont('Catalish Huntera');
+text('a place to go', 250, 300);
+pop()
+
+push()
+console.log(counter);
+if(counter > 3301 && counter < 3420){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textSize(24)
+textFont('Catalish Huntera');
+text('where they play', 250, 366);
+pop()
+
+push()
+console.log(counter);
+if(counter > 3301 && counter < 3420){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textSize(24)
+textFont('Catalish Huntera');
+text('the right music', 250, 432);
+pop()
+
+push()
+console.log(counter);
+if(counter > 3465 && counter < 3528){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textSize(24)
+textFont('Catalish Huntera');
+text('getting in the swing', 250, 366);
+pop()
+
+push()
+console.log(counter);
+if(counter > 3583 && counter < 3750){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textSize(24)
+textFont('Catalish Huntera');
+text('youve come to look for a king ', 250, 432);
+pop()
+
+push()
+console.log(counter);
+if(counter > 3889 && counter < 4125){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textSize(24)
+textFont('Catalish Huntera');
+text('Anybody could be that guy', 250, 498);
+pop()
+
+push()
+console.log(counter);
+if(counter > 4182 && counter < 4252){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textSize(24)
+textFont('Catalish Huntera');
+text('Night is young, and the music is', 250, 564);
+pop()
+
+push()
+console.log(counter);
+if(counter > 4306 && counter < 4423){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+if(counter > 4306){
+  x+= -7.5
+}else{
+  x = 630
+}
+textSize(50)
+textFont('Catalish Huntera');
+text('high', 295, x);
+pop()
+
+push()
+console.log(counter);
+if(counter > 4474 && counter < 4583){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textSize(24)
+textFont('Catalish Huntera');
+text('with a bit of rock music', 250, 234);
+pop()
+
+push()
+console.log(counter);
+if(counter > 4620 && counter < 4711){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textSize(24)
+textFont('Catalish Huntera');
+text('everthing is fine', 250, 300);
+pop()
+
+push()
+console.log(counter);
+if(counter > 4742 && counter < 4878){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textSize(24)
+textFont('Catalish Huntera');
+text('youre in the mood for a dance', 250, 366);
+pop()
+
+push()
+console.log(counter);
+if(counter > 4979 && counter < 5224){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textSize(24)
+textFont('Catalish Huntera');
+text('and when you get the chance', 250, 432);
+pop()
+
+push()
+console.log(counter);
+if(counter > 5273 && counter < 5429){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textSize(24)
+textFont('Catalish Huntera');
+text('you are the DANCING QUEEN', 250, 432);
+pop()
+
+push()
+console.log(counter);
+if(counter > 5469 && counter < 5865){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textSize(24)
+textFont('Catalish Huntera');
+text('young and sweet only 17', 200, 498);
+pop()
+
+push()
+console.log(counter);
+if(counter > 5900 && counter < 6018){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textSize(45)
+textFont('Catalish Huntera');
+text('DANCING QUEEN', 150, 400);
+pop()
+
+push()
+console.log(counter);
+if(counter > 6042 && counter < 6284){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textSize(24)
+textFont('Catalish Huntera');
+text('feel the beat from the tanbourine', 150, 466);
+pop()
+
+push()
+console.log(counter);
+if(counter > 6309 && counter < 6459){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textSize(50)
+textFont('Catalish Huntera');
+text('OH YEAH', 150, 532);
+pop()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//   if (y < 400) {
+//     stroke(48, 90, 132);
+//     // print(counter)
+//   }
+//   console.log(counter)
+//   if (counter > 10 && counter < 50){
+//     fill(0)
+//   }else{
+//     fill(48, 90, 132)
+//   }
+
+
+//   ellipse(400, y, 20)
+
+// if(counter > 170){
+//   y+= -10
+// }
+// else{
+//   y= 815
+// }
+//   if (y < 500) {
+//     stroke(48, 90, 132);
+//     // print(counter)
+//   }
+//   console.log(counter)
+//   if (counter > 20 && counter < 70){
+//     fill(0)
+//     }else{
+//       fill(48, 90, 132)
+//     }
+//   ellipse(200, y, 20)
+
+ 
+
+ 
+
+
+// vocal bar is red
    //fill(200, 0, 0);
    //rect(bar_pos_x, height / 2 + 1 * bar_spacing, 4 * vocal, bar_height);
    //fill(0);
