@@ -14,9 +14,11 @@ var x = -630
 var fallstart3 = 5312
 var fallend3 = 8214
 var lineCountj = 16
-var fallstart4 = 8215
-var fallend4 = 9000
+var fallstart4 = 9616
+var fallend4 = 1205
 var xgone = 0
+var fallstart5 = 8215
+var fallend5 = 12051
 // nice
 
 // vocal, drum, bass, and other are volumes ranging from 0 to 100
@@ -54,7 +56,6 @@ for (let i=0; i<lineCount; i++) {
   rotate(360 / lineCount)
 }
 pop();
-
 
 // second firework
 let linelength2 = map(bass, 0, 100, 100, 250)
@@ -147,7 +148,6 @@ pop()
 
 // sixth firework
 let linelength6 = map(drum, 0, 100, 100, 250)
-
 push(); 
 console.log(counter);
 if(counter > fallstart3 && counter < fallend3)
@@ -207,7 +207,7 @@ if(counter > fallstart3 && counter < fallend3)
 
 // translate to the center 
 translate(100, 150);
-let lineCountI = 16;
+let lineCountH = 16;
 for (let i=0; i<lineCount; i++) {
   line(0, -40, 40, linelength)
   rotate(360 / lineCount)
@@ -229,7 +229,7 @@ if(counter > fallstart4 && counter < fallend4)
 
 // push to the center 
 translate(725, 125);
-let lineCountJ = 16;
+let lineCountI = 16;
 for (let i=0; i<lineCountc; i++) {
   line(0, -40, 40, linelength2)
   rotate(360 / lineCountc)
@@ -252,7 +252,7 @@ if(counter > fallstart4 && counter < fallend4)
 
 // translate to the center 
 translate(175, 750);
-let lineCount10 = 14;
+let lineCountJ = 14;
 for (let i=0; i<lineCount; i++) {
   line(0, -40, 40, linelength)
   rotate(360 / lineCount)
@@ -275,7 +275,76 @@ if(counter > fallstart4 && counter < fallend4)
 
 // translate to the center 
 translate(200, 175);
-let lineCount11 = 14;
+let lineCountK = 14;
+for (let i=0; i<lineCount; i++) {
+  line(0, -40, 40, linelength)
+  rotate(360 / lineCount)
+}
+pop();
+
+// twelth firework
+let linelength12 = map(drum, 0, 100, 100, 250)
+
+push(); 
+console.log(counter);
+if(counter > fallstart5 && counter < fallend5)
+
+  if(counter > 125){
+    stroke(126, 223, 236)
+    strokeWeight(3)
+  }else{
+    noStroke()
+  }
+
+// translate to the center 
+translate(700, 350);
+let lineCountL = 16;
+for (let i=0; i<lineCount; i++) {
+  line(0, -40, 40, linelength)
+  rotate(360 / lineCount)
+}
+pop();
+
+// thirtenth firework
+let linelength13 = map(drum, 0, 100, 100, 250)
+
+push(); 
+console.log(counter);
+if(counter > fallstart5 && counter < fallend5)
+
+  if(counter > 125){
+    stroke(206, 185, 240)
+    strokeWeight(3)
+  }else{
+    noStroke()
+  }
+
+// translate to the center 
+translate(150, 700);
+let lineCountM = 16;
+for (let i=0; i<lineCount; i++) {
+  line(0, -40, 40, linelength)
+  rotate(360 / lineCount)
+}
+pop();
+
+// fourtenth firework
+let linelength14 = map(bass, 0, 100, 100, 250)
+
+push(); 
+console.log(counter);
+if(counter > fallstart5 && counter < fallend5)
+
+  if(counter > 125){
+    stroke(240, 243, 179)
+    strokeWeight(3)
+  }else{
+    noStroke()
+  }
+
+// translate to the center 
+translate(100, 150);
+let lineCountN = 16;
 for (let i=0; i<lineCount; i++) {
   line(0, -40, 40, linelength)
   rotate(360 / lineCount)
@@ -580,7 +649,7 @@ if(counter > 5273 && counter < 5429){
 }
 textSize(24)
 textFont('Catalish Huntera');
-text('you are the DANCING QUEEN', 250, 432);
+text('you are the DANCING QUEEN', 200, 432);
 pop()
 
 push()
@@ -604,7 +673,7 @@ if(counter > 5900 && counter < 6018){
 }
 textSize(45)
 textFont('Catalish Huntera');
-text('DANCING QUEEN', 150, 400);
+text('DANCING QUEEN', 100, 400);
 pop()
 
 push()
@@ -661,7 +730,7 @@ if(counter > 6759 && counter < 6938){
   noFill()
 }
 textFont('Catalish Huntera');
-text('Having the time of your life', 350, 175);
+text('Having the time of your life', 275, 175);
 pop()
 
 push()
@@ -766,8 +835,10 @@ if(counter > 4306){
   xgone = 0
 }
 textFont('Catalish Huntera');
-text('gone', x, 495);
+text('gone', xgone, 495);
 pop()
+
+xgone = xgone +1
 
 push()
 console.log(counter);
@@ -777,7 +848,7 @@ if(counter > 8743 && counter < 8852){
   noFill()
 }
 textFont('Catalish Huntera');
-text('looking out for another', 450, 545);
+text('looking out for another', 375, 545);
 pop()
 
 push()
@@ -810,9 +881,146 @@ if(counter > 9246 && counter < 9501){
   noFill()
 }
 textFont('Catalish Huntera');
-text('and when you get the chance', 375, 665);
+text('and when you get the chance', 300, 665);
 pop()
 
+push()
+console.log(counter);
+if(counter > 9583 && counter < 9761){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textSize(24)
+textFont('Catalish Huntera');
+text('you are the DANCING QUEEN', 200, 432);
+pop()
+
+push()
+console.log(counter);
+if(counter > 9793 && counter < 10123){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textSize(24)
+textFont('Catalish Huntera');
+text('young and sweet only 17', 200, 498);
+pop()
+
+push()
+console.log(counter);
+if(counter > 10219 && counter < 10331){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textSize(45)
+textFont('Catalish Huntera');
+text('DANCING QUEEN', 100, 400);
+pop()
+
+push()
+console.log(counter);
+if(counter > 10366 && counter < 10586){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textSize(24)
+textFont('Catalish Huntera');
+text('feel the beat from the tanbourine', 150, 466);
+pop()
+
+push()
+console.log(counter);
+if(counter > 10625 && counter < 10763){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textSize(50)
+textFont('Catalish Huntera');
+text('OH YEAH', 150, 532);
+pop()
+
+push()
+console.log(counter);
+if(counter > 10798 && counter < 10896){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textFont('Catalish Huntera');
+text('You can DANCE', 400, 100 );
+pop()
+
+push()
+console.log(counter);
+if(counter > 10936 && counter < 11042){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textFont('Catalish Huntera');
+text('You can JIVE', 400, 125);
+pop()
+
+push()
+console.log(counter);
+if(counter > 11076 && counter < 11250){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textFont('Catalish Huntera');
+text('Having the time of your life', 300, 175);
+pop()
+
+push()
+console.log(counter);
+if(counter > 11286 && counter < 11351){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textSize(30)
+textFont('Catalish Huntera');
+text('OOOOOOOH', 375, 250);
+pop()
+
+push()
+console.log(counter);
+if(counter > 11379 && counter < 11453){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textFont('Catalish Huntera');
+text('See that girl', 355, 325);
+pop()
+
+push()
+console.log(counter);
+if(counter > 11491 && counter < 11578){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textFont('Catalish Huntera');
+text('watch that scene', 355, 375);
+pop()
+
+push()
+console.log(counter);
+if(counter > 11612 && counter < 11896){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textFont('Catalish Huntera');
+text('digging the DANCING QUEEN', 200, 425);
+pop()
 
 
 
