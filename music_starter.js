@@ -14,7 +14,7 @@ var x = -630
 var fallstart3 = 5312
 var fallend3 = 8214
 var lineCountj = 16
-var fallstart4 = 8216
+var fallstart4 = 8215
 var fallend4 = 9000
 // nice
 
@@ -708,8 +708,104 @@ textFont('Catalish Huntera');
 text('digging the DANCING QUEEN', 200, 425);
 pop()
 
+push()
+console.log(counter);
+if(counter > 8190 && counter < 8404){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textFont('Catalish Huntera');
+text('Your a teaser', 425, 425);
+pop()
 
+push()
+console.log(counter);
+if(counter > 8190 && counter < 8404){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textFont('Catalish Huntera');
+text('You turn em on', 425, 445);
+pop()
 
+push()
+console.log(counter);
+if(counter > 8457 && counter < 8544){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textFont('Catalish Huntera');
+text('leave em burning', 425, 475);
+pop()
+
+push()
+console.log(counter);
+if(counter > 8457 && counter < 8544){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textFont('Catalish Huntera');
+text('and then your', 425, 495);
+pop()
+
+push()
+console.log(counter);
+if(counter > 8590 && counter < 8685){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textFont('Catalish Huntera');
+text('gone', 400, 495);
+pop()
+
+push()
+console.log(counter);
+if(counter > 8743 && counter < 8852){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textFont('Catalish Huntera');
+text('looking out for another', 450, 545);
+pop()
+
+push()
+console.log(counter);
+if(counter > 8890 && counter < 8994){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textFont('Catalish Huntera');
+text('anyone will do', 450, 565);
+pop()
+
+push()
+console.log(counter);
+if(counter > 9015 && counter < 9171){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textFont('Catalish Huntera');
+text('your in the mood for a dance', 375, 605);
+pop()
+
+push()
+console.log(counter);
+if(counter > 9246 && counter < 9501){
+  fill(247, 247, 243)
+}else{
+  noFill()
+}
+textFont('Catalish Huntera');
+text('and when you get the chance', 375, 665);
+pop()
 
 
 
