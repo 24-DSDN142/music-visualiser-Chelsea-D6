@@ -13,7 +13,7 @@ var fallend2 = 5310
 var x = -630
 var fallstart3 = 5312
 var fallend3 = 7000
-
+// nice
 
 // vocal, drum, bass, and other are volumes ranging from 0 to 100
 function draw_one_frame(words, vocal, drum, bass, other, counter) {
