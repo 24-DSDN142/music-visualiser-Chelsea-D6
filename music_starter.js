@@ -16,6 +16,7 @@ var fallend3 = 8214
 var lineCountj = 16
 var fallstart4 = 8215
 var fallend4 = 9000
+var xgone = 0
 // nice
 
 // vocal, drum, bass, and other are volumes ranging from 0 to 100
@@ -759,8 +760,13 @@ if(counter > 8590 && counter < 8685){
 }else{
   noFill()
 }
+if(counter > 4306){
+  xgone+= 7.5
+}else{
+  xgone = 0
+}
 textFont('Catalish Huntera');
-text('gone', 400, 495);
+text('gone', x, 495);
 pop()
 
 push()
