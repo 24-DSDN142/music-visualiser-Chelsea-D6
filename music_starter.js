@@ -13,6 +13,9 @@ var fallend2 = 5310
 var x = -630
 var fallstart3 = 5312
 var fallend3 = 8214
+var lineCountj = 16
+var fallstart4 = 8216
+var fallend4 = 9000
 // nice
 
 // vocal, drum, bass, and other are volumes ranging from 0 to 100
@@ -107,7 +110,7 @@ if(counter > fallstart2 && counter < fallend2)
     stroke(126, 223, 236)
     strokeWeight(3)
   }else{
-    noStroke(0)
+    noStroke()
   }
 
 // translate to the center 
@@ -129,7 +132,7 @@ if(counter > fallstart2 && counter < fallend2)
     stroke(240, 243, 179)
     strokeWeight(3)
   }else{
-    noStroke(0)
+    noStroke()
   }
 
 // translate to the center 
@@ -152,7 +155,7 @@ if(counter > fallstart3 && counter < fallend3)
     stroke(126, 223, 236)
     strokeWeight(3)
   }else{
-    noStroke(0)
+    noStroke()
   }
 
 // translate to the center 
@@ -175,7 +178,7 @@ if(counter > fallstart3 && counter < fallend3)
     stroke(206, 185, 240)
     strokeWeight(3)
   }else{
-    noStroke(0)
+    noStroke()
   }
 
 // translate to the center 
@@ -188,7 +191,7 @@ for (let i=0; i<lineCount; i++) {
 pop();
 
 // eighth firework
-let linelength8 = map(drum, 0, 100, 100, 250)
+let linelength8 = map(bass, 0, 100, 100, 250)
 
 push(); 
 console.log(counter);
@@ -198,12 +201,80 @@ if(counter > fallstart3 && counter < fallend3)
     stroke(240, 243, 179)
     strokeWeight(3)
   }else{
-    noStroke(0)
+    noStroke()
   }
 
 // translate to the center 
 translate(100, 150);
 let lineCountI = 16;
+for (let i=0; i<lineCount; i++) {
+  line(0, -40, 40, linelength)
+  rotate(360 / lineCount)
+}
+pop();
+
+// ninth firework
+let linelength9 = map(other, 0, 100, 150, 300)
+push();
+console.log(counter);
+if(counter > fallstart4 && counter < fallend4)
+
+  if(counter > 125){
+    stroke(251, 154, 175)
+    strokeWeight(3)
+  }else{
+    noStroke()
+  }
+
+// push to the center 
+translate(725, 125);
+let lineCountJ = 16;
+for (let i=0; i<lineCountc; i++) {
+  line(0, -40, 40, linelength2)
+  rotate(360 / lineCountc)
+}
+pop();
+
+// tenth firework
+let linelengthk = map(drum, 0, 100, 100, 250)
+
+push(); 
+console.log(counter);
+if(counter > fallstart4 && counter < fallend4)
+
+  if(counter > 125){
+    stroke(126, 223, 236)
+    strokeWeight(3)
+  }else{
+    noStroke()
+  }
+
+// translate to the center 
+translate(175, 750);
+let lineCount10 = 14;
+for (let i=0; i<lineCount; i++) {
+  line(0, -40, 40, linelength)
+  rotate(360 / lineCount)
+}
+pop();
+
+// eleventh firework
+let linelengthl = map(vocal, 0, 100, 100, 250)
+
+push(); 
+console.log(counter);
+if(counter > fallstart4 && counter < fallend4)
+
+  if(counter > 125){
+    stroke(206, 185, 240)
+    strokeWeight(3)
+  }else{
+    noStroke()
+  }
+
+// translate to the center 
+translate(200, 175);
+let lineCount11 = 14;
 for (let i=0; i<lineCount; i++) {
   line(0, -40, 40, linelength)
   rotate(360 / lineCount)
