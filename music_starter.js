@@ -45,7 +45,8 @@ if(counter > fallstart1 && counter < fallend1)
     stroke(126, 223, 236)
     strokeWeight(3)
   }else{
-    noStroke(0)
+    noStroke()
+    noFill()
   }
 
 // translate to the center 
@@ -67,7 +68,8 @@ if(counter > fallstart1 && counter < fallend1)
     stroke(251, 154, 175)
     strokeWeight(3)
   }else{
-    noStroke(0)
+    noStroke()
+    noFill()
   }
 
 // translate to the center 
@@ -89,7 +91,8 @@ if(counter > fallstart1 && counter < fallend1)
     stroke(240, 243, 179)
     strokeWeight(3)
   }else{
-    noStroke(0)
+    noStroke()
+    noFill()
   }
 
 // translate to the center 
@@ -113,6 +116,7 @@ if(counter > fallstart2 && counter < fallend2)
     strokeWeight(3)
   }else{
     noStroke()
+    noFill()
   }
 
 // translate to the center 
@@ -135,6 +139,7 @@ if(counter > fallstart2 && counter < fallend2)
     strokeWeight(3)
   }else{
     noStroke()
+    noFill()
   }
 
 // translate to the center 
@@ -157,6 +162,7 @@ if(counter > fallstart3 && counter < fallend3)
     strokeWeight(3)
   }else{
     noStroke()
+    noFill()
   }
 
 // translate to the center 
@@ -180,6 +186,7 @@ if(counter > fallstart3 && counter < fallend3)
     strokeWeight(3)
   }else{
     noStroke()
+    noFill()
   }
 
 // translate to the center 
@@ -203,6 +210,7 @@ if(counter > fallstart3 && counter < fallend3)
     strokeWeight(3)
   }else{
     noStroke()
+    noFill()
   }
 
 // translate to the center 
@@ -225,6 +233,7 @@ if(counter > fallstart4 && counter < fallend4)
     strokeWeight(3)
   }else{
     noStroke()
+    noFill()
   }
 
 // push to the center 
@@ -248,6 +257,7 @@ if(counter > fallstart4 && counter < fallend4)
     strokeWeight(3)
   }else{
     noStroke()
+    noFill()
   }
 
 // translate to the center 
@@ -271,6 +281,7 @@ if(counter > fallstart4 && counter < fallend4)
     strokeWeight(3)
   }else{
     noStroke()
+    noFill()
   }
 
 // translate to the center 
@@ -294,6 +305,7 @@ if(counter > fallstart5 && counter < fallend5)
     strokeWeight(3)
   }else{
     noStroke()
+    noFill()
   }
 
 // translate to the center 
@@ -317,6 +329,7 @@ if(counter > fallstart5 && counter < fallend5)
     strokeWeight(3)
   }else{
     noStroke()
+    noFill()
   }
 
 // translate to the center 
@@ -340,6 +353,7 @@ if(counter > fallstart5 && counter < fallend5)
     strokeWeight(3)
   }else{
     noStroke()
+    noFill()
   }
 
 // translate to the center 
@@ -351,12 +365,14 @@ for (let i=0; i<lineCount; i++) {
 }
 pop();
 
+//lyrics 
 push();
 console.log(counter);
 if(counter > 1125 && counter < 1255){
   fill(247, 247, 243)
 }else{
   noFill()
+  
 }
 textSize(30)
 textFont('Catalish Huntera');
@@ -370,6 +386,7 @@ if(counter > 1305 && counter < 1405){
 }else{
   noFill()
 }
+textSize(30)
 textFont('Catalish Huntera');
 text('You can DANCE', 35, 100 );
 pop()
