@@ -18,7 +18,7 @@ var fallstart4 = 9616
 var fallend4 = 1205
 var xgone = 0
 var fallstart5 = 8215
-var fallend5 = 12051
+var fallend5 = 13000
 // nice
 
 // vocal, drum, bass, and other are volumes ranging from 0 to 100
@@ -358,6 +358,7 @@ if(counter > 1125 && counter < 1255){
 }else{
   noFill()
 }
+textSize(30)
 textFont('Catalish Huntera');
 text('OOOOOOOH', 35, 50);
 pop()
@@ -380,6 +381,7 @@ if(counter > 1448 && counter < 1594){
 }else{
   noFill()
 }
+textSize(30)
 textFont('Catalish Huntera');
 text('You can JIVE', 100, 125);
 pop()
@@ -391,6 +393,7 @@ if(counter > 1600 && counter < 1735){
 }else{
   noFill()
 }
+textSize(30)
 textFont('Catalish Huntera');
 text('Having the time of your life', 150, 175);
 pop()
@@ -402,6 +405,7 @@ if(counter > 1816 && counter < 1886){
 }else{
   noFill()
 }
+textSize(30)
 textFont('Catalish Huntera');
 text('OOOOOOOH', 50, 575);
 pop()
@@ -413,6 +417,7 @@ if(counter > 1917 && counter < 2015){
 }else{
   noFill()
 }
+textSize(30)
 textFont('Catalish Huntera');
 text('See that girl', 75, 600);
 pop()
@@ -424,6 +429,7 @@ if(counter > 2020 && counter < 2085){
 }else{
   noFill()
 }
+textSize(30)
 textFont('Catalish Huntera');
 text('watch that scene', 75, 630);
 pop()
@@ -435,6 +441,7 @@ if(counter > 2100 && counter < 2441){
 }else{
   noFill()
 }
+textSize(30)
 textFont('Catalish Huntera');
 text('digging the DANCING QUEEN', 50, 675);
 pop()
@@ -447,6 +454,7 @@ if(counter > 2737 && counter < 2872){
 }else{
   noFill()
 }
+textSize(30)
 textFont('Catalish Huntera');
 text('Friday night', 250, 234);
 pop()
@@ -458,6 +466,7 @@ if(counter > 2737 && counter < 2872){
 }else{
   noFill()
 }
+textSize(30)
 textFont('Catalish Huntera');
 text('and the lights are', 250, 300);
 pop()
@@ -486,7 +495,7 @@ if(counter > 2970 && counter < 3245){
 }else{
   noFill()
 }
-textSize(24)
+textSize(30)
 textFont('Catalish Huntera');
 text('Looking out for', 250, 234);
 pop()
@@ -498,7 +507,7 @@ if(counter > 2970 && counter < 3245){
 }else{
   noFill()
 }
-textSize(24)
+textSize(30)
 textFont('Catalish Huntera');
 text('a place to go', 250, 300);
 pop()
@@ -510,7 +519,7 @@ if(counter > 3301 && counter < 3420){
 }else{
   noFill()
 }
-textSize(24)
+textSize(30)
 textFont('Catalish Huntera');
 text('where they play', 250, 366);
 pop()
@@ -522,7 +531,7 @@ if(counter > 3301 && counter < 3420){
 }else{
   noFill()
 }
-textSize(24)
+textSize(30)
 textFont('Catalish Huntera');
 text('the right music', 250, 432);
 pop()
@@ -534,7 +543,7 @@ if(counter > 3465 && counter < 3528){
 }else{
   noFill()
 }
-textSize(24)
+textSize(30)
 textFont('Catalish Huntera');
 text('getting in the swing', 250, 366);
 pop()
@@ -546,7 +555,7 @@ if(counter > 3583 && counter < 3750){
 }else{
   noFill()
 }
-textSize(24)
+textSize(30)
 textFont('Catalish Huntera');
 text('youve come to look for a king ', 250, 432);
 pop()
@@ -558,7 +567,7 @@ if(counter > 3889 && counter < 4125){
 }else{
   noFill()
 }
-textSize(24)
+textSize(30)
 textFont('Catalish Huntera');
 text('Anybody could be that guy', 250, 498);
 pop()
@@ -570,7 +579,7 @@ if(counter > 4182 && counter < 4252){
 }else{
   noFill()
 }
-textSize(24)
+textSize(30)
 textFont('Catalish Huntera');
 text('Night is young, and the music is', 250, 564);
 pop()
@@ -599,7 +608,7 @@ if(counter > 4474 && counter < 4583){
 }else{
   noFill()
 }
-textSize(24)
+textSize(30)
 textFont('Catalish Huntera');
 text('with a bit of rock music', 250, 234);
 pop()
@@ -611,7 +620,7 @@ if(counter > 4620 && counter < 4711){
 }else{
   noFill()
 }
-textSize(24)
+textSize(30)
 textFont('Catalish Huntera');
 text('everthing is fine', 250, 300);
 pop()
@@ -623,7 +632,7 @@ if(counter > 4742 && counter < 4878){
 }else{
   noFill()
 }
-textSize(24)
+textSize(30)
 textFont('Catalish Huntera');
 text('youre in the mood for a dance', 250, 366);
 pop()
@@ -635,7 +644,7 @@ if(counter > 4979 && counter < 5224){
 }else{
   noFill()
 }
-textSize(24)
+textSize(30)
 textFont('Catalish Huntera');
 text('and when you get the chance', 250, 432);
 pop()
@@ -647,7 +656,7 @@ if(counter > 5273 && counter < 5429){
 }else{
   noFill()
 }
-textSize(24)
+textSize(30)
 textFont('Catalish Huntera');
 text('you are the DANCING QUEEN', 200, 432);
 pop()
@@ -659,7 +668,7 @@ if(counter > 5469 && counter < 5865){
 }else{
   noFill()
 }
-textSize(24)
+textSize(30)
 textFont('Catalish Huntera');
 text('young and sweet only 17', 200, 498);
 pop()
@@ -683,7 +692,7 @@ if(counter > 6042 && counter < 6284){
 }else{
   noFill()
 }
-textSize(24)
+textSize(30)
 textFont('Catalish Huntera');
 text('feel the beat from the tanbourine', 150, 466);
 pop()
@@ -707,6 +716,7 @@ if(counter > 6475 && counter < 6571){
 }else{
   noFill()
 }
+textSize(30)
 textFont('Catalish Huntera');
 text('You can DANCE', 400, 100 );
 pop()
@@ -718,6 +728,7 @@ if(counter > 6614 && counter < 6722){
 }else{
   noFill()
 }
+textSize(30)
 textFont('Catalish Huntera');
 text('You can JIVE', 400, 125);
 pop()
@@ -752,6 +763,7 @@ if(counter > 7062 && counter < 7146){
 }else{
   noFill()
 }
+textSize(30)
 textFont('Catalish Huntera');
 text('See that girl', 355, 325);
 pop()
@@ -763,6 +775,7 @@ if(counter > 7187 && counter < 7280){
 }else{
   noFill()
 }
+textSize(30)
 textFont('Catalish Huntera');
 text('watch that scene', 355, 375);
 pop()
@@ -774,6 +787,7 @@ if(counter > 7302 && counter < 7760){
 }else{
   noFill()
 }
+textSize(30)
 textFont('Catalish Huntera');
 text('digging the DANCING QUEEN', 200, 425);
 pop()
@@ -785,6 +799,7 @@ if(counter > 8190 && counter < 8404){
 }else{
   noFill()
 }
+textSize(30)
 textFont('Catalish Huntera');
 text('Your a teaser', 425, 425);
 pop()
@@ -796,6 +811,7 @@ if(counter > 8190 && counter < 8404){
 }else{
   noFill()
 }
+textSize(30)
 textFont('Catalish Huntera');
 text('You turn em on', 425, 445);
 pop()
@@ -807,6 +823,7 @@ if(counter > 8457 && counter < 8544){
 }else{
   noFill()
 }
+textSize(30)
 textFont('Catalish Huntera');
 text('leave em burning', 425, 475);
 pop()
@@ -818,6 +835,7 @@ if(counter > 8457 && counter < 8544){
 }else{
   noFill()
 }
+textSize(30)
 textFont('Catalish Huntera');
 text('and then your', 425, 495);
 pop()
@@ -829,16 +847,15 @@ if(counter > 8590 && counter < 8685){
 }else{
   noFill()
 }
-if(counter > 4306){
+if(counter > 8590){
   xgone+= 7.5
 }else{
   xgone = 0
 }
+textSize(50)
 textFont('Catalish Huntera');
 text('gone', xgone, 495);
 pop()
-
-xgone = xgone +1
 
 push()
 console.log(counter);
@@ -847,8 +864,9 @@ if(counter > 8743 && counter < 8852){
 }else{
   noFill()
 }
+textSize(30)
 textFont('Catalish Huntera');
-text('looking out for another', 375, 545);
+text('looking out for another', 300, 545);
 pop()
 
 push()
@@ -858,8 +876,9 @@ if(counter > 8890 && counter < 8994){
 }else{
   noFill()
 }
+textSize(30)
 textFont('Catalish Huntera');
-text('anyone will do', 450, 565);
+text('anyone will do', 400, 565);
 pop()
 
 push()
@@ -869,8 +888,9 @@ if(counter > 9015 && counter < 9171){
 }else{
   noFill()
 }
+textSize(30)
 textFont('Catalish Huntera');
-text('your in the mood for a dance', 375, 605);
+text('your in the mood for a dance', 300, 605);
 pop()
 
 push()
@@ -880,37 +900,38 @@ if(counter > 9246 && counter < 9501){
 }else{
   noFill()
 }
+textSize(30)
 textFont('Catalish Huntera');
 text('and when you get the chance', 300, 665);
 pop()
 
 push()
 console.log(counter);
-if(counter > 9583 && counter < 9761){
+if(counter > 9542 && counter < 9715){
   fill(247, 247, 243)
 }else{
   noFill()
 }
-textSize(24)
+textSize(30)
 textFont('Catalish Huntera');
-text('you are the DANCING QUEEN', 200, 432);
+text('you are the DANCING QUEEN', 175, 432);
 pop()
 
 push()
 console.log(counter);
-if(counter > 9793 && counter < 10123){
+if(counter > 9742 && counter < 10091){
   fill(247, 247, 243)
 }else{
   noFill()
 }
-textSize(24)
+textSize(30)
 textFont('Catalish Huntera');
 text('young and sweet only 17', 200, 498);
 pop()
 
 push()
 console.log(counter);
-if(counter > 10219 && counter < 10331){
+if(counter > 10164 && counter < 10320){
   fill(247, 247, 243)
 }else{
   noFill()
@@ -922,19 +943,19 @@ pop()
 
 push()
 console.log(counter);
-if(counter > 10366 && counter < 10586){
+if(counter > 10328 && counter < 10565){
   fill(247, 247, 243)
 }else{
   noFill()
 }
-textSize(24)
+textSize(30)
 textFont('Catalish Huntera');
 text('feel the beat from the tanbourine', 150, 466);
 pop()
 
 push()
 console.log(counter);
-if(counter > 10625 && counter < 10763){
+if(counter > 10588 && counter < 10723){
   fill(247, 247, 243)
 }else{
   noFill()
@@ -946,40 +967,43 @@ pop()
 
 push()
 console.log(counter);
-if(counter > 10798 && counter < 10896){
+if(counter > 10754 && counter < 10871){
   fill(247, 247, 243)
 }else{
   noFill()
 }
+textSize(30)
 textFont('Catalish Huntera');
 text('You can DANCE', 400, 100 );
 pop()
 
 push()
 console.log(counter);
-if(counter > 10936 && counter < 11042){
+if(counter > 10899 && counter < 11014){
   fill(247, 247, 243)
 }else{
   noFill()
 }
+textSize(30)
 textFont('Catalish Huntera');
 text('You can JIVE', 400, 125);
 pop()
 
 push()
 console.log(counter);
-if(counter > 11076 && counter < 11250){
+if(counter > 11042 && counter < 11244){
   fill(247, 247, 243)
 }else{
   noFill()
 }
+textSize(30)
 textFont('Catalish Huntera');
 text('Having the time of your life', 300, 175);
 pop()
 
 push()
 console.log(counter);
-if(counter > 11286 && counter < 11351){
+if(counter > 11269 && counter < 11340){
   fill(247, 247, 243)
 }else{
   noFill()
@@ -991,33 +1015,36 @@ pop()
 
 push()
 console.log(counter);
-if(counter > 11379 && counter < 11453){
+if(counter > 11356 && counter < 11396){
   fill(247, 247, 243)
 }else{
   noFill()
 }
+textSize(30)
 textFont('Catalish Huntera');
 text('See that girl', 355, 325);
 pop()
 
 push()
 console.log(counter);
-if(counter > 11491 && counter < 11578){
+if(counter > 11473 && counter < 11571){
   fill(247, 247, 243)
 }else{
   noFill()
 }
+textSize(30)
 textFont('Catalish Huntera');
 text('watch that scene', 355, 375);
 pop()
 
 push()
 console.log(counter);
-if(counter > 11612 && counter < 11896){
+if(counter > 11582 && counter < 11917){
   fill(247, 247, 243)
 }else{
   noFill()
 }
+textSize(30)
 textFont('Catalish Huntera');
 text('digging the DANCING QUEEN', 200, 425);
 pop()
