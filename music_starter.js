@@ -1097,33 +1097,4 @@ function draw_one_frame(words, vocal, drum, bass, other, counter) {
   text('digging the DANCING QUEEN', 200, 425);
   pop()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-
-function firework(x, y, ) {
-
 }
